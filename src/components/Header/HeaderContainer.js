@@ -9,13 +9,11 @@ class HeaderContainer extends React.Component {
   componentDidMount() {
     axios.get(`https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json`)
       .then(response => {
-        this.props.setCurrency(response.data);
+        this.props.setCurrency(response.data)
       });
   }
 
-
   render() {
-
     return <Header currency={this.props.currency}/>
   }
 }
