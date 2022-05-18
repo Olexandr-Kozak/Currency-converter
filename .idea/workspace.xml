@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad318c3-bd19-4fd9-9f99-f9f04266dd33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Converter/Converter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Body.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Body.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/BodyContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/BodyContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/body-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/header-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/header-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-    </list>
+    <list default="true" id="aad318c3-bd19-4fd9-9f99-f9f04266dd33" name="Default Changelist" comment="Готово" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,8 +64,16 @@
       <workItem from="1652532805292" duration="11371000" />
       <workItem from="1652640015818" duration="7414000" />
       <workItem from="1652780689868" duration="1313000" />
-      <workItem from="1652783574918" duration="27690000" />
+      <workItem from="1652783574918" duration="28318000" />
     </task>
+    <task id="LOCAL-00001" summary="Готово">
+      <created>1652884517761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652884517762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +89,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готово" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652882239572">
@@ -123,6 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="434" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652882218076" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1652884519952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652884519952" />
     <state x="18" y="91" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1652814740440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
