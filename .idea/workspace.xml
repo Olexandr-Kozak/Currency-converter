@@ -21,14 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="aad318c3-bd19-4fd9-9f99-f9f04266dd33" name="Default Changelist" comment="Готово">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Body.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/BodyContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Converter/ConverterContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Converter/Converter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Converter/Converter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Converter/ConverterContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Converter/ConverterContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/header-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/main-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <workItem from="1652640015818" duration="7414000" />
       <workItem from="1652780689868" duration="1313000" />
       <workItem from="1652783574918" duration="28318000" />
-      <workItem from="1653574203111" duration="1698000" />
+      <workItem from="1653574203111" duration="4443000" />
     </task>
     <task id="LOCAL-00001" summary="Готово">
       <created>1652884517761</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652884517762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrency Convertor">
+      <created>1653576011028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576011029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="Готово" />
+    <MESSAGE value="Corrency Convertor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrency Convertor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652882239572">
@@ -133,30 +140,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652882255019" />
-    <state width="1899" height="388" key="GridCell.Tab.0.bottom" timestamp="1653575191703">
+    <state width="1899" height="388" key="GridCell.Tab.0.bottom" timestamp="1653576110132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191703" />
-    <state width="1899" height="388" key="GridCell.Tab.0.center" timestamp="1653575191702">
+    <state width="1899" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653576110132" />
+    <state width="1899" height="388" key="GridCell.Tab.0.center" timestamp="1653576110132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
-    <state width="1899" height="388" key="GridCell.Tab.0.left" timestamp="1653575191702">
+    <state width="1899" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653576110132" />
+    <state width="1899" height="388" key="GridCell.Tab.0.left" timestamp="1653576110132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
-    <state width="1899" height="388" key="GridCell.Tab.0.right" timestamp="1653575191702">
+    <state width="1899" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653576110132" />
+    <state width="1899" height="388" key="GridCell.Tab.0.right" timestamp="1653576110132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
+    <state width="1899" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653576110132" />
     <state x="807" y="434" key="VCS.ChangelistChooser" timestamp="1652882218076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="434" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652882218076" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1652884519952">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1653576032432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652884519952" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653576032432" />
     <state x="18" y="91" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1652814740440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

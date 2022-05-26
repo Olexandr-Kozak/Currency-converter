@@ -8,6 +8,7 @@ import {
   setOutputValue
 } from "../../redux/main-reducer";
 import Converter from "./Converter";
+import s from "../../style.module.css"
 
 class ConverterContainer extends React.Component {
 
@@ -51,8 +52,8 @@ class ConverterContainer extends React.Component {
 
   render() {
     return (
-      <>
-        <div>
+      <div className={s.main}>
+        <div className={s.converterRow}>
           <Converter onChangeCurrency={(e) => {
             this.onChangeInputCurrency(e)
           }}
@@ -64,7 +65,8 @@ class ConverterContainer extends React.Component {
                      selectCurrency={this.props.inputCurrency}
           />
         </div>
-        <div>
+        <div className={s.equal}>=</div>
+        <div className={s.converterRow}>
           <Converter onChangeCurrency={e => {
             this.onChangeOutputCurrency(e)
           }}
@@ -76,7 +78,7 @@ class ConverterContainer extends React.Component {
                      selectCurrency={this.props.outputCurrency}
           />
         </div>
-      </>
+      </div>
     )
   }
 }
