@@ -1,8 +1,8 @@
 import {combineReducers, createStore} from "redux";
-import headerReducer from "./header-reducer";
+import mainReducer from "./main-reducer";
 
 let reducers = combineReducers({
-  header: headerReducer
+  main: mainReducer
 });
 
 let store = createStore(reducers);

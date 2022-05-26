@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad318c3-bd19-4fd9-9f99-f9f04266dd33" name="Default Changelist" comment="Готово" />
+    <list default="true" id="aad318c3-bd19-4fd9-9f99-f9f04266dd33" name="Default Changelist" comment="Готово">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/Body.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/BodyContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Converter/ConverterContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/Converter/Converter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Converter/Converter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/header-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/main-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +58,26 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olexa\Desktop\Currency-converter\src\components\Body" />
       <recent name="C:\Users\olexa\Desktop\it-1000\src\components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,6 +93,7 @@
       <workItem from="1652640015818" duration="7414000" />
       <workItem from="1652780689868" duration="1313000" />
       <workItem from="1652783574918" duration="28318000" />
+      <workItem from="1653574203111" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="Готово">
       <created>1652884517761</created>
@@ -89,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Готово" />
@@ -103,22 +133,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652882255019" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1652782288670">
+    <state width="1899" height="388" key="GridCell.Tab.0.bottom" timestamp="1653575191703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652782288670" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1652782288670">
+    <state width="1899" height="388" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191703" />
+    <state width="1899" height="388" key="GridCell.Tab.0.center" timestamp="1653575191702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652782288670" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1652782288669">
+    <state width="1899" height="388" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
+    <state width="1899" height="388" key="GridCell.Tab.0.left" timestamp="1653575191702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652782288669" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1652782288670">
+    <state width="1899" height="388" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
+    <state width="1899" height="388" key="GridCell.Tab.0.right" timestamp="1653575191702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652782288670" />
+    <state width="1899" height="388" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653575191702" />
     <state x="807" y="434" key="VCS.ChangelistChooser" timestamp="1652882218076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

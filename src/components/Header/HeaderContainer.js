@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import {connect} from "react-redux";
 import * as axios from "axios";
-import {setCurrencyAC} from "../../redux/header-reducer";
+import {setCurrency} from "../../redux/main-reducer";
 
 class HeaderContainer extends React.Component {
 
@@ -20,16 +20,8 @@ class HeaderContainer extends React.Component {
 
 let mapStateToProps = (state) => {
   return {
-    currency: state.header.currency
+    currency: state.main.currency
   }
 }
 
-let mapDispatchToProps = (dispatch) => {
-  return {
-    setCurrency: (currency) => {
-      dispatch(setCurrencyAC(currency))
-    }
-  }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(HeaderContainer)
+export default connect(mapStateToProps, {setCurrency})(HeaderContainer)
